@@ -1,4 +1,8 @@
-Simple Website Template
+## 💻 Projeto
+
+Simple Website Template: It's a simple website template (HTML - CSS - JS) where you can use to create your institucional website based on this template.
+
+<br >
 
 ## 🚀 Tecnologias
 
