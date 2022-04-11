@@ -29,3 +29,15 @@ window.addEventListener('scroll', function() {
         header.classList.remove('scroll')
     }
 })
+
+/** testimonials slider | carousel  */
+/** https://swiperjs.com/ */
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true,
+    
+});

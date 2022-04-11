@@ -24,6 +24,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - calc
 - before and after
 - content
+- object-fit
+- clip-path
 
 
 #### 🚀 JS Concepts
@@ -37,3 +39,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - classList
 - scroll
 - offsetHeight
+- Third party library
+-- [SwipeJS](https://github.com/nolimits4web/Swiper)

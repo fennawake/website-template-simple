@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/fonts/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>beautysalon.</title>
 </head>
 <body>
@@ -91,14 +92,53 @@
         <div class="divider-1"></div>
 
         <section class="section" id="testimonials">
-            <div class="container grid">
+            <div class="container">
                 <header>
                     <h2 class="title">Testimonials from who has visited us</h2>
                 </header>
+                <div class="testimonials swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="Profile image of the person who gave the testimonial">
+                                    Wanessa Souza
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Profile image of the person who gave the testimonial">
+                                    Clarice Miller
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="Profile image of the person who gave the testimonial">
+                                    Angel Ortega
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </section>
-
-        <div class="divider-2"></div>
 
         <section class="section" id="contact">
             <div class="container grid">Contact</div>
@@ -106,6 +146,7 @@
     </main>
     <footer></footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/scripts/main.js"></script>
 </body>
 </html>
