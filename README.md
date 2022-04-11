@@ -8,7 +8,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-### CSS concepts
+<br >
+<br >
+<br >
+
+#### 🚀 CSS Concepts
 
 - rem
 - vh and vw (viewport height and viewport width)
@@ -19,8 +23,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - before and after
 - content
 
+<br >
+<br >
 
-### JS concepts
+#### 🚀 JS Concepts
 
 - variables
 - querySelector
