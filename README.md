@@ -9,8 +9,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 
 <br >
-<br >
-<br >
 
 #### 🚀 CSS Concepts
 
@@ -23,8 +21,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - before and after
 - content
 
-<br >
-<br >
 
 #### 🚀 JS Concepts
 
