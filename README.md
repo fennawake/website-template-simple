@@ -39,5 +39,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - classList
 - scroll
 - offsetHeight
-- Third party library
--- [SwipeJS](https://github.com/nolimits4web/Swiper)
+
+
+#### 🚀 Libraries
+
+- [SwipeJS](https://github.com/nolimits4web/Swiper)
+- [ScrollRevel](https://scrollrevealjs.org)
+- Whatsapp Message Integration
