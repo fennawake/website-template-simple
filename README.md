@@ -6,7 +6,7 @@ Simple Website Template: It's a simple website template (HTML - CSS - JS) where 
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias follow the Mobile First concept.
 
 - HTML
 - CSS
@@ -26,6 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - content
 - object-fit
 - clip-path
+- transition
+- transform
 
 
 #### 🚀 JS Concepts
