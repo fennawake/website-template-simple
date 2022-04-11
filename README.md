@@ -1,6 +1,14 @@
 Simple Website Template
 
-# CSS concepts
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+
+### CSS concepts
 
 - rem
 - vh and vw (viewport height and viewport width)
@@ -12,7 +20,7 @@ Simple Website Template
 - content
 
 
-# JS concepts
+### JS concepts
 
 - variables
 - querySelector
