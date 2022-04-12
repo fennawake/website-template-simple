@@ -45,6 +45,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias follow the Mobile Fir
 
 #### 🚀 Libraries
 
+- [Google Fonts](https://fonts.google.com/)
 - [SwipeJS](https://github.com/nolimits4web/Swiper)
 - [ScrollRevel](https://scrollrevealjs.org)
 - Whatsapp Message Integration
+
+#### 🚀 Utilities
+
+- [randomuser.me](https://randomuser.me/photos)
+- [IconMoon](https://icomoon.io/app/#/select)

@@ -19,10 +19,10 @@ for (const link of links) {
 }
 
 /** function to add shadow to header*/
-function headerChangeScroll(){
-    const header = document.querySelector('#header');
-    const navHeight = header.offsetHeight;
+const header = document.querySelector('#header');
+const navHeight = header.offsetHeight;
 
+function headerChangeScroll(){
     if(window.scrollY >= navHeight) {
         header.classList.add('scroll')
     }else{
@@ -30,9 +30,35 @@ function headerChangeScroll(){
     }
 }
 
+/** show menu item active  */
+const sections = document.querySelectorAll('main section[id]')
+function activeMenu() {
+ const topOffset = window.scrollY + (window.innerHeight / 8) * 4
+ 
+ for (const section of sections) {
+     const sectionTop = section.offsetTop
+     const sectionHeight = section.offsetHeight
+     const sectionId = section.getAttribute('id')
+
+     const topOffsetStart = topOffset >= sectionTop
+     const topOffsetEnd = topOffset <= sectionTop + sectionHeight
+
+     if(topOffsetStart && topOffsetEnd){
+        document
+            .querySelector('nav ul li a[href*=' + sectionId + ']')
+            .classList.add('active')
+     } else {
+         document
+            .querySelector('nav ul li a[href*=' + sectionId + ']')
+            .classList.remove('active')
+
+     }
+ }
+}
+
 /** function to Back to top when click arrow button at bottom of page  */
+const topButton = document.querySelector('.back-to-top');
 function backToTop(){
-    const topButton = document.querySelector('.back-to-top');
     if(window.scrollY > 400){
         topButton.classList.add('show')
     }else {
@@ -44,6 +70,7 @@ function backToTop(){
 window.addEventListener('scroll', function() {
     headerChangeScroll()
     backToTop()
+    activeMenu()
 })
 
 /** testimonials slider | carousel  */
@@ -55,7 +82,12 @@ const swiper = new Swiper('.swiper', {
     },
     mousewheel: true,
     keyboard: true,
-
+    breakpoints: {
+        767: {
+            slidesPerView: 2,
+            setWrapperSize: true
+        }
+    }
 });
 
 /** Scroll Reveal  */
